@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>113085760028-8tlmejacve123en0g17ghvf984du8oc7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.113085760028-8tlmejacve123en0g17ghvf984du8oc7</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>113085760028-9b5o3bfok9e6rovv113pukrta5ct4l6j.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGW7L8pzGiixG79PNvSqFjnJxR1mOg1zY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>113085760028</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tn.fleless.cardscratcher</string>
+	<key>PROJECT_ID</key>
+	<string>9ar9achni</string>
+	<key>STORAGE_BUCKET</key>
+	<string>9ar9achni.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:113085760028:ios:1c5883a6f0da712d1d15d9</string>
+	<key>DATABASE_URL</key>
+	<string>https://ar9achni.firebaseio.com</string>
+</dict>
+</plist>
