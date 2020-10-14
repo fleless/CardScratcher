@@ -2,11 +2,14 @@ import 'package:cardscratcher/src/constants/styles/app_images.dart';
 import 'package:flutter/material.dart';
 
 class RoundButton extends StatefulWidget {
-  String buttonIconPath;
-  double startOffset;
-  RoundButton(this.buttonIconPath, this.startOffset);
+  final String buttonIconPath;
+  final double startOffset;
+  final Function onClickAction;
   @override
   _State createState() => _State();
+
+  RoundButton(this.buttonIconPath, this.startOffset, this.onClickAction);
+
 }
 
 class _State extends State<RoundButton> with SingleTickerProviderStateMixin {
@@ -22,12 +25,14 @@ class _State extends State<RoundButton> with SingleTickerProviderStateMixin {
       vsync: this,
     )
       ..forward();
+
+
   }
 
   @override
   void dispose() {
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
 
   @override
@@ -55,10 +60,11 @@ class _State extends State<RoundButton> with SingleTickerProviderStateMixin {
           ),
           onTapDown: _onButtonTapDown,
           onTapUp: _onButtonTapUp,
-          onTap: () {
-            print("you clicked my");
-          }),
+          onTap: widget.onClickAction
+      ),
     );
+
+
   }
 
 

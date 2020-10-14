@@ -690,7 +690,7 @@ class _LoginCardState extends State<_LoginCard> with TickerProviderStateMixin {
                 signInWithGoogle().whenComplete((){
                   // signInWithGoogle().then((value) => print("hahahahah"+value.toString()));
                   // signInWithGoogle().catchError((value) => print("hahahahah"+value.toString()));
-                  print("hahaha"+googleSignIn.currentUser.displayName+" // "+googleSignIn.currentUser.email);
+                  //print("hahaha"+googleSignIn.currentUser.displayName+" // "+googleSignIn.currentUser.email);
                   Modular.to.pushNamed(Routes.home);
                 });
                 //signInWithGoogle().catchError((value )=> print("hahaha"+ value.toString()));

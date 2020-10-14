@@ -17,4 +17,8 @@ class AppImages {
   static String get googleLogo => 'assets/images/google.jpg';
   static String get buttonRound => 'assets/images/button_round.png';
   static String get buttonRoundClicked => 'assets/images/button_round_clicked.png';
+  static String get buttonHome => 'assets/images/button_home.png';
+  static String get buttonHomeClicked => 'assets/images/button_home_clicked.png';
+  static String get timerView => 'assets/images/timer_view.png';
+  static String get nintyNine => 'assets/images/ninty_nine.png';
 }

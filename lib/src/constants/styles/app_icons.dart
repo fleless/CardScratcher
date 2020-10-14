@@ -86,5 +86,6 @@ class AppIcons {
 
   static String get menuICon => 'assets/icons/menu.png';
   static String get userIcon => 'assets/icons/user.png';
+  static String get closeIcon => 'assets/icons/close.png';
   static Widget google = SvgPicture.asset('assets/icons/google.svg');
 }

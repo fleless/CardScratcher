@@ -11,6 +11,8 @@ class AppColors {
   static const Color green = Color(0xFF00D975);
   static const Color greenlight = Color(0xFFe6fff3); // green 10%
   static const Color gmailColor = Color(0xFFE65A4D); // green 10%
+  static const Color accentColor= Color(0xFFFFD700);
+  static const Color primaryColor = Color(0xFFD63281);
 
   static Map<int, Color> colorCodes = {
     50: const Color.fromRGBO(0, 217, 117, .1),
